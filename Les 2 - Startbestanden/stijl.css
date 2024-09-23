@@ -1,0 +1,24 @@
+
+.section{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: solid #000000 3px;
+    border-radius: 10px;
+}
+#sectie-1{
+    background-color:#e6a2a2;
+    color: #600;
+    font-family: gowun batang;
+    }
+#sectie-2{
+    background-color:#a2c4e6;
+    color:#004080;
+}
+#sectie-3{
+    background-color:#a2e6c4;
+    color:#00663d;
+}
+
+
+
