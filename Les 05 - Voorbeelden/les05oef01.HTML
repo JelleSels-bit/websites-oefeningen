@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #formulier {
+        width: 40%;
+      }
+      .blauweachtergrond {
+        background-color: lightblue;
+      }
+
+      input:focus {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="https://tm-statweb.be/forms.php" method="post" id="formulier">
+      <div>
+        <label for="voornaam">Voornaam</label>
+        <div>
+          <input
+            type="text"
+            name="Voornaam"
+            id="Voornaam"
+            class="blauweachtergrond"
+          />
+        </div>
+      </div>
+
+      <div>
+        <label for="achternaam">Achternaam</label>
+        <div>
+          <input
+            type="text"
+            name="achternaam"
+            id="achternaam"
+            class="blauweachtergrond"
+          />
+        </div>
+      </div>
+
+      <div>
+        <label for="verzenden">Verzenden</label>
+        <div><input type="submit" value="verzenden" name="verzenden" /></div>
+      </div>
+    </form>
+  </body>
+</html>

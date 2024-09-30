@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      form{
+        width: 50%;
+      }
+      input{
+        box-shadow: 5px 5px lightgray;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+      <div><label for="voornaam">Voornaam:</label></div>
+      <div><input type="text" name="voornaam" id="voornaam" value="voornaam" placeholder="Jelle" /></div>
+
+      <div><label for="achternaam">Achternaam:</label></div>
+      <div><input type="text" name="achternaam" id="achternaam" value="achternaam" placeholder="Sels" /></div>
+
+      <div><label for="gebruikersnaam">gebruikersnaam:</label></div>
+      <div><input type="text" name="gebruikersnaam" id="gebruikersnaam" value="gebruikersnaam" placeholder="Gebruikersnaam123"/></div>
+
+      <div><label for="nickname">Nickname:</label></div>
+      <div><input type="text" name="nickname" id="nickname" value="nickname" placeholder="Nickname123" min="5" max="15" required /></div>
+
+      <div><label for="paswoord">Paswoord:</label></div>
+      <div><input type="password" name="paswoord" id="paswoord" value="paswoord" placeholder="Eddy123" required /></div>
+
+      <div><label for="herhaal paswoord">Herhaal paswoord:</label></div>
+      <div><input type="password" name="herhaal paswoord" id="herhaal paswoord" value="herhaal passwoord" placeholder="Eddy123" required /></div>
+
+      <div><input type="submit" value="registreer" name="registreer" id="registreer" /></div>
+    </form>
+  </body>
+</html>
