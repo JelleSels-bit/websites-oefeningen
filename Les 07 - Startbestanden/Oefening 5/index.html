@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link de CSS -->
+    <title>Les 06 - Oef 05</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      body {
+        margin: 0;
+        padding: 5px;
+      }
+      .header {
+        float: left;
+        text-align: center;
+        width: 100%;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        
+      }
+      .footer {
+        width: 100%;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      .navigation {
+        float: left;
+        height: 500px;
+        padding: 5px;
+        width: 30%;
+        background-color: lightgrey;
+      }
+      .content {
+        float: left;
+        padding: 5px;
+        width: 60%;
+        
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .tekst{
+        margin-bottom: 10px;
+      }
+      
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1 class="tekst">City info</h1>
+    </div>
+    
+    <div class="row">
+      <div class="navigation">
+        <p class="tekst">London</p>
+        <p class="tekst">Paris</p>
+        <p class="tekst">Tokyo</p>
+      </div>
+      <div class="content">
+        <h1 class="tekst">London Bridge.</h1>
+        <p class="tekst">Look at this awesome Bridge</p>
+        <img src="img/london_bridge.jpg" alt="Foto van de londonbridge." />
+      </div>
+    </div>
+
+    <div class="footer"><p class="tekst">Copyright</p></div>
+  </body>
+</html>

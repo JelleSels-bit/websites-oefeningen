@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link de CSS -->
+    <title>Les 06 - Oef 04</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      .column60 {
+        float: left;
+        width: 60%;
+        padding: 15px;
+      }
+      .column40 {
+        float: left;
+        width: 40%;
+        padding: 15px;
+      }
+      .column25 {
+        float: left;
+        width: 25%;
+        padding: 15px;
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      @media (width <= 800px) {
+        .column25,
+        .column40,
+        .column60 {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="column60">
+        <h1>column</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+          ratione tenetur quidem assumenda ipsum qui? Tempore laudantium officia
+          enim facere.
+        </p>
+      </div>
+
+      <div class="column40">
+        <h1>column</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est
+          dolorem deleniti iure! Minima culpa excepturi quibusdam vero ut
+          ratione?
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="column25">
+          <h1>column</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            ratione tenetur quidem assumenda ipsum qui? Tempore laudantium officia
+            enim facere.
+          </p>
+        </div>
+  
+        <div class="column25">
+          <h1>column</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est
+            dolorem deleniti iure! Minima culpa excepturi quibusdam vero ut
+            ratione?
+          </p>
+        </div>
+
+        <div class="column25">
+            <h1>column</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est
+              dolorem deleniti iure! Minima culpa excepturi quibusdam vero ut
+              ratione?
+            </p>
+          </div>
+
+          <div class="column25">
+            <h1>column</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita est
+              dolorem deleniti iure! Minima culpa excepturi quibusdam vero ut
+              ratione?
+            </p>
+          </div>
+      </div>
+  </body>
+</html>
