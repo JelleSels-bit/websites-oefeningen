@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Les 07 - Voorbeelden"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Les 07 - Startbestanden"
+	}
+}
